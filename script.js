@@ -91,7 +91,7 @@ new Vue({
                 id: String(time),
                 title: "New note " + (this.notes.length + 1),
                 content:
-                    "**Hi!** This notebook is using [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for formatting!",
+                    "**Hi!** This notebook is using [markdown]for formatting! For more information on markdown see: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)",
                 created: time,
                 favorite: false
             }
